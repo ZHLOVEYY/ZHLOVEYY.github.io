@@ -3,7 +3,7 @@ title: hugo tutorial
 description: my tutorial of setting up my blog center
 date: 2026-02-01T02:45:56.914Z
 preview: ""
-draft: true
+draft: false
 tags: []
 categories:
     - IT
