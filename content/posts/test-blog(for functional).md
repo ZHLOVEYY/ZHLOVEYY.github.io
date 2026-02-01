@@ -14,8 +14,6 @@ I love obsidian, I love open-source
 - store pic and display
 
 ![123](static/images/Pasted%20image%2020260201133559.png)
-![](static/images/Pasted%20image%2020260201134155.png)
-
 1. code insert test
 ``` gdscript
 extends CharacterBody2D
