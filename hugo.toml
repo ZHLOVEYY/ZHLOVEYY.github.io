@@ -1,0 +1,31 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'PaperMod'  # 替换为你的主题名
+
+[params]
+  description = 'Deep dives into Godot engine, game art, and music composition.'
+  author = 'Carlos'
+  images = ['cover.jpg']  # 上传封面图到 static/
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Blog'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'godot'
+    name = 'Godot Tutorials'
+    url = '/categories/godot/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'art'
+    name = 'Art Gallery'
+    url = '/art/'
+    weight = 30
+  # 添加更多如 Music 等
+
+  [caches]
+  [caches.images]
+    dir = ':cacheDir/images'
