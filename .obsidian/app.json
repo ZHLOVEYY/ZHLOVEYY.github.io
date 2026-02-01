@@ -1,0 +1,20 @@
+{
+  "alwaysUpdateLinks": true,
+  "livePreview": true,
+  "defaultViewMode": "source",
+  "vimMode": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "static/images",
+  "promptDelete": false,
+  "trashOption": "local",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "newLinkFormat": "relative",
+  "readableLineLength": true,
+  "useMarkdownLinks": true
+}
