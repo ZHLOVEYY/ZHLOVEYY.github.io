@@ -12,7 +12,9 @@ categories:
 I love obsidian, I love open-source 
 ## test
 - store pic and display
-![](../../static/images/Pasted%20image%2020260201121522.png)
+
+![123](static/images/Pasted%20image%2020260201133559.png)
+![](static/images/Pasted%20image%2020260201134155.png)
 
 1. code insert test
 ``` gdscript

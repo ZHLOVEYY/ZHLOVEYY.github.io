@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on HarryMonkeyEXE&#39;s Game Center</title>
-    <link>http://localhost:1313/ZHLOVEYY/ZHLOVEYY.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on HarryMonkeyEXE&#39;s Game Center</description>
     <image>
       <title>HarryMonkeyEXE&#39;s Game Center</title>
-      <url>http://localhost:1313/ZHLOVEYY/ZHLOVEYY.github.io/cover.jpg</url>
-      <link>http://localhost:1313/ZHLOVEYY/ZHLOVEYY.github.io/cover.jpg</link>
+      <url>http://localhost:1313/cover.jpg</url>
+      <link>http://localhost:1313/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Feb 2026 02:45:56 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ZHLOVEYY/ZHLOVEYY.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo tutorial</title>
-      <link>http://localhost:1313/ZHLOVEYY/ZHLOVEYY.github.io/posts/test-blogfor-functional/</link>
+      <link>http://localhost:1313/posts/test-blogfor-functional/</link>
       <pubDate>Sun, 01 Feb 2026 02:45:56 +0000</pubDate>
-      <guid>http://localhost:1313/ZHLOVEYY/ZHLOVEYY.github.io/posts/test-blogfor-functional/</guid>
+      <guid>http://localhost:1313/posts/test-blogfor-functional/</guid>
       <description>my tutorial of setting up my blog center</description>
     </item>
   </channel>
