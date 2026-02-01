@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "HarryMonkeyEXE's Game Center"
 theme = 'PaperMod'  # 替换为你的主题名
 
 [params]
@@ -8,23 +8,41 @@ theme = 'PaperMod'  # 替换为你的主题名
   author = 'Carlos'
   images = ['cover.jpg']  # 上传封面图到 static/
 
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
 [menu]
   [[menu.main]]
-    identifier = 'posts'
-    name = 'Blog'
+    identifier = 'all'
+    name = 'ALL'
     url = '/posts/'
     weight = 10
   [[menu.main]]
     identifier = 'godot'
-    name = 'Godot Tutorials'
+    name = 'Godot'
     url = '/categories/godot/'
     weight = 20
   [[menu.main]]
-    identifier = 'art'
-    name = 'Art Gallery'
-    url = '/art/'
+    identifier = 'painting'
+    name = 'Painting'
+    url = '/categories/painting/'
+    weight = 25
+  [[menu.main]]
+    identifier = 'music'
+    name = 'Music'
+    url = '/categories/music/'
     weight = 30
-  # 添加更多如 Music 等
+  [[menu.main]]
+    identifier = 'IT'
+    name = 'IT'
+    url = '/categories/IT/'
+    weight = 35
+  [[menu.main]]
+    identifier = 'collection'
+    name = 'Collection of Works'
+    url = '/categories/collection-of-works/'
+    weight = 40
 
   [caches]
   [caches.images]
