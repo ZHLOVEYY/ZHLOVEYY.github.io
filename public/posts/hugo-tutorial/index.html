@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>IT | HarryMonkeyEXE&#39;s Game Center</title>
+<title>hugo tutorial | HarryMonkeyEXE&#39;s Game Center</title>
 <meta name="keywords" content="">
-<meta name="description" content="Deep dives into Godot engine, game art, and music composition.">
+<meta name="description" content="my tutorial of setting up my blog center">
 <meta name="author" content="Carlos">
-<link rel="canonical" href="http://localhost:1313/categories/it/">
+<link rel="canonical" href="http://localhost:1313/posts/hugo-tutorial/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/categories/it/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/categories/it/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/hugo-tutorial/">
 <noscript>
     <style>
         #theme-toggle,
@@ -73,7 +72,7 @@
 
 </script>
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -124,7 +123,7 @@
             </li>
             <li>
                 <a href="http://localhost:1313/categories/it/" title="IT">
-                    <span class="active">IT</span>
+                    <span>IT</span>
                 </a>
             </li>
             <li>
@@ -135,26 +134,109 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    IT
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">hugo tutorial
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>basic setting use mac homebrew to install hugo
-brew install hugo hugo new site my-game-dev-blog cd xx &amp; git init hugo new posts/my-first-godot-tutorial.md # test for create a post # add mod git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod in &#34;hugo.toml&#34; set ` theme = &#39;PaperMod&#39; # Replace with your topic name.` hugo serve hugo serve -D (will see draft = true posts) set github Actions in github follow the instruction of official website guide： https://gohugo.io/host-and-deploy/host-on-github-pages/
-use Front Matter extention in VScode to easily manage your post
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-01 02:45:56.914 +0000 UTC'>February 1, 2026</span>&nbsp;·&nbsp;<span>Carlos</span></footer>
-  <a class="entry-link" aria-label="post link to hugo tutorial" href="http://localhost:1313/posts/hugo-tutorial/"></a>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      hugo tutorial
+    </h1>
+    <div class="post-description">
+      my tutorial of setting up my blog center
+    </div>
+    <div class="post-meta"><span title='2026-02-01 02:45:56.914 +0000 UTC'>February 1, 2026</span>&nbsp;·&nbsp;<span>Carlos</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="basic-setting">basic setting<a hidden class="anchor" aria-hidden="true" href="#basic-setting">#</a></h2>
+<p>use mac homebrew to install hugo</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span><span style="display:flex;"><span>hugo new site my-game-dev-blog
+</span></span><span style="display:flex;"><span>cd xx &amp; git init
+</span></span><span style="display:flex;"><span>hugo new posts/my-first-godot-tutorial.md <span style="color:#75715e"># test for create a post</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># add mod</span>
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>in <span style="color:#e6db74">&#34;hugo.toml&#34;</span> set <span style="color:#e6db74">`</span> theme <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;PaperMod&#39;</span> <span style="color:#75715e"># Replace with your topic name.`</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>hugo serve 
+</span></span><span style="display:flex;"><span>hugo serve -D <span style="color:#f92672">(</span>will see draft <span style="color:#f92672">=</span> true posts<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>set github Actions in github follow the instruction of official website guide：
+<a href="https://gohugo.io/host-and-deploy/host-on-github-pages/">https://gohugo.io/host-and-deploy/host-on-github-pages/</a></p>
+<p>use <code>Front Matter</code> extention in VScode to easily manage your post</p>
+<p>use <code>obsidain</code> to write the posts, set pic url to static/
+close wiki link and path start from the vault</p>
+<p>see my setting:https://github.com/ZHLOVEYY/ZHLOVEYY.github.io
+main file:</p>
+<ul>
+<li>render problem: see /layouts/_default/_markup/reder-image.html</li>
+<li>config: hugo.toml can set your own configuration</li>
+<li>github Action: in /.github/workflow</li>
+</ul>
+<p>concept reminder：</p>
+<ul>
+<li>in /public the file will be rebuilt so you can&rsquo;t store anything</li>
+<li>the render in  render-image.html is to correct the Path concatenation in github action which will use the ‘base_URL’ in hugo.toml</li>
+<li>iamge converte plugin in obsidian have an impact on the path setting of original obsidain so turn it down</li>
+</ul>
+<h2 id="test-part">test part<a hidden class="anchor" aria-hidden="true" href="#test-part">#</a></h2>
+<ul>
+<li>store pic and display</li>
+</ul>
+<p><img alt="123" loading="lazy" src="/images/Pasted%20image%2020260201133559.png"></p>
+<ol>
+<li>code insert test</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript" data-lang="gdscript"><span style="display:flex;"><span><span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">CharacterBody2D</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@export</span> <span style="color:#66d9ef">var</span> speed <span style="color:#f92672">=</span> <span style="color:#ae81ff">300</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">_physics_process</span>(delta):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> direction <span style="color:#f92672">=</span> <span style="color:#a6e22e">Input</span><span style="color:#f92672">.</span><span style="color:#a6e22e">get_vector</span>(<span style="color:#e6db74">&#34;ui_left&#34;</span>, <span style="color:#e6db74">&#34;ui_right&#34;</span>, <span style="color:#e6db74">&#34;ui_up&#34;</span>, <span style="color:#e6db74">&#34;ui_down&#34;</span>)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    velocity <span style="color:#f92672">=</span> direction <span style="color:#f92672">*</span> speed
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">move_and_slide</span>()
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 朝向鼠标（可选）</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">look_at</span>(<span style="color:#a6e22e">get_global_mouse_position</span>())
+</span></span></code></pre></div>
+
+  </div><div id="like-section">
+  <button id="like-btn">👍 Like (<span id="like-count">0</span>)</button>
+</div>
+<script>
+  const slug = 'hugo tutorial';
+  const apiUrl = `https://api.countapi.xyz/hit/my-game-dev-blog/${slug}`;
+
+  
+  fetch(apiUrl).then(res => res.json()).then(data => {
+    document.getElementById('like-count').textContent = data.value;
+  }).catch(() => {
+    
+  });
+
+  
+  document.getElementById('like-btn').addEventListener('click', () => {
+    fetch(apiUrl).then(res => res.json()).then(data => {
+      document.getElementById('like-count').textContent = data.value;
+    }).catch(() => {
+      alert('Like failed. Try again.');
+    });
+  });
+</script>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer><script src="https://utteranc.es/client.js"
+  repo="[YOUR_GITHUB_USERNAME]/[YOUR_REPO_NAME]"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
 </article>
     </main>
     
