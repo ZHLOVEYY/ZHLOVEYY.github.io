@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/test-blog(for functional).md",
+                "file": "content/posts/hugo tutorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test-blog(for functional)"
+              "title": "hugo tutorial"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/test-blog(for functional).md",
+                "file": "content/posts/hugo tutorial.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of test-blog(for functional)"
+              "title": "Outline of hugo tutorial"
             }
           },
           {
@@ -183,6 +183,8 @@
   },
   "active": "d78306c63419ba06",
   "lastOpenFiles": [
+    "content/posts/Untitled.md",
+    "content/posts/hugo tutorial.md",
     "public/images/Pasted image 20260201134155.png",
     "static/images/Pasted image 20260201134155.png",
     "layouts/_default/_markup/render-image.html",
@@ -197,12 +199,10 @@
     "public/images",
     "static/images/Pasted image 20260201121522.png",
     "content/posts/my-first-category-blog.md",
-    "content/posts/test-blog(for functional).md",
     "static/images/image.png",
     "static/images/Pasted image 20260201115941.png",
     "static/images/Pasted image 20260201115917.png",
     "static/images/Pasted image 20260201115916.png",
-    "static/images/Pasted image 20260201115914.png",
     "2025-11/30.md",
     "2025-11/31.md",
     "2025-11/29.md",
